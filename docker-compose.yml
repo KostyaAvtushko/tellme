@@ -1,12 +1,11 @@
 version: '3.8'
 
 services: 
-  redis:
-    image: redis:latest
-    restart: always
+  redis-stack-svc:
+    image: redis/redis-stack-server:latest
     ports: 
       - 6379:6379
-    command: redis-server --requirepass avtushko
+    command: ["redis-server"]
   api:
     build: ./tellme-server
     ports:
@@ -15,3 +14,4 @@ services:
     build: ./tellme
     ports:
       - 3030:3030
+
