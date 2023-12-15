@@ -10,12 +10,10 @@ export class UserShema {
     },
     '$.age': {
       type: SchemaFieldTypes.NUMERIC,
-      SORTABLE: true,
       AS: 'age',
     },
     '$.gender': {
       type: SchemaFieldTypes.TEXT,
-      SORTABLE: true,
       AS: 'gender',
     },
   };
