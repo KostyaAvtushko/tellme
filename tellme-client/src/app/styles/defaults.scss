@@ -1,0 +1,14 @@
+@mixin text {
+    color: #E3E3E3;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin input {
+    border-radius: 5px;
+    background-color: #0E0E0E;
+    outline: none;
+}

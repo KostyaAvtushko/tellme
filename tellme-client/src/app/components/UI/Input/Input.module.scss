@@ -1,0 +1,8 @@
+@import '../../../styles/defaults.scss';
+
+.input__wrapper {
+    width: 250px;   
+    input {
+        @include input; 
+    }
+}

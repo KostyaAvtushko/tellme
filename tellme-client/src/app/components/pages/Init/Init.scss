@@ -1,0 +1,9 @@
+@import "../../../styles/defaults.scss";
+
+.init-wrapper {
+    .greeting {
+        @include text;
+        font-size: 24px;
+        font-weight: 700;
+    }  
+}
